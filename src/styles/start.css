@@ -4,15 +4,43 @@
     width: 100%;
     align-items: center;
     justify-content: center;
+
 }
 
 .column {
-    flex: 0.7;
+    flex: 0.5;
     padding: 20px;
-    /* border: 1px solid #ccc; */
+    border: 1px solid #ccc;
+}
+
+.title-intro {
+    width: 80%;
+    border: 1px solid red;
 }
 
 .title {
     font-size: 50px;
     font-weight: bold;
+    font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+}
+
+.intro {
+    font-size: 17px;
+}
+
+.simple-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.icon-text {
+    display: flex;
+    gap: 5%;
+}
+
+.proj-title {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
 }
