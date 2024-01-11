@@ -1,5 +1,7 @@
 import React from 'react'
 import "../../styles/start.css"
+import { useTheme } from '../ThemeContext'
+import TechBox from './TechBox'
 
 interface ProjectProps {
     project_name: string;
@@ -9,23 +11,31 @@ interface ProjectProps {
     onClick: () => void;
 }
 
-const ProjectBox: React.FC<ProjectProps> = ({ project_name, project_description, project_image, onClick }) => {
+const ProjectBox: React.FC<ProjectProps> = ({ project_name, project_description, project_image, tech, onClick }) => {
+    const techBoxes = () => {
+      return tech.map((technology, index) => (
+        <TechBox key={index} technology={technology} />
+      ));
+    };
+  
+    const { theme, toggleTheme } = useTheme();
     return (
-      <div className="project-box" onClick={onClick}>
+      <div className={`project-box ${theme}`} onClick={onClick}>
         <div className="project-img">
           <img src={project_image} className="image" />
         </div>
+        <div className="project-title">
+          {project_name}
+        </div>
+        <div className="project-description">
+          {project_description}
+        </div>
+        <div className="technologies">
+          {techBoxes()}
+        </div>
         
-        {project_name}
-        {project_description}
       </div>
     );
   };
-
-// function ProjectBox() {
-//   return (
-//     <div>ProjectBox</div>
-//   )
-// }
 
 export default ProjectBox

@@ -13,12 +13,12 @@
 }
 
 .horizontal-navbar.light {
-  background-color: #fff; /* Light mode background color */
+  background-color: #e6e4e464; /* Light mode background color */
 
 }
 
 .horizontal-navbar.dark {
-  background-color: rgb(33, 37, 42); /* Dark mode background color */
+  background-color: rgba(18, 21, 23, 0.257); /* Dark mode background color */
 
 }
 
