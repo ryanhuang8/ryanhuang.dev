@@ -10,7 +10,7 @@ function Introduction() {
             Ryan Huang
         </div>
         <div className="intro">
-            I study computer science @ Brown University. I'm currently interested in software engineering, AI/ML research, and biotech.
+            I study computer science @ Brown University and am part of the PLME Program. I'm currently interested in software engineering, AI/ML research, and biotech.
         </div>
         <div className="simple-navigation">
             <a href="huangr0867.github.io">

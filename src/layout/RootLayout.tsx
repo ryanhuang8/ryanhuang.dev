@@ -1,10 +1,15 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
+import Navbar from "../components/Navbar";
+import { ThemeProvider } from "../components/ThemeContext";
 
 export default function Root() {
     return (
-        <div>
-            <Outlet/>
-        </div>
+        <ThemeProvider>
+            <div>
+                <Navbar/>
+                <Outlet/>
+            </div>
+        </ThemeProvider>
     )
   }

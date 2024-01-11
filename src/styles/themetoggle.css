@@ -1,0 +1,28 @@
+.light .theme-toggle {
+    background-color: #8d18e6;
+    color: white;
+}
+  
+.dark .theme-toggle {
+    background-color: #ffc720;
+    color: black;
+}
+  
+.theme-toggle {
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    align-items: center;
+    display: flex;
+    height: 80%;
+    width: 45px;
+}
+  
+.theme-toggle.light:hover {
+    background-color: #7014b6
+}
+
+.theme-toggle.dark:hover {
+    background-color: #d3a005;
+}
