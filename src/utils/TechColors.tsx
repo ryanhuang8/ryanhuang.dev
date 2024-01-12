@@ -4,7 +4,11 @@ const TechColors: { [key: string]: string } = {
    Firebase : "#FFA611",
    Flask : "black",
    Java : "#1FBED6",
-   Flutter : "#8dcfec"
+   Flutter : "#8dcfec",
+   Dart : "#1a43bf",
+   Javascript : "#ecb753",
+   MongoDB : "#4db33d",
+   'Jupyter Notebook' : "#fc6a03",
 };
 
 export default TechColors
