@@ -3,10 +3,11 @@ import "../../styles/start.css"
 import { useTheme } from '../ThemeContext'
 
 interface ProjectModalProps {
+  project: {name : string, description : string, image : string}
   closeModal: () => void;
 }
 
-const ProjectModal: React.FC<ProjectModalProps> = ({ closeModal }) => {
+const ProjectModal: React.FC<ProjectModalProps> = ({ project, closeModal }) => {
   const { theme, toggleTheme } = useTheme();
   const handleCloseModal = (e: MouseEvent) => {
     e.stopPropagation();
@@ -19,8 +20,11 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ closeModal }) => {
         <span className="close-button" onClick={handleCloseModal}>
           &times;
         </span>
-        <h2>Modal Title</h2>
-        <p>This is the content of the modal.</p>
+        <div className="project-img">
+          <img src={project.image} className="image" />
+        </div>
+        <h2>{project.name}</h2>
+        <p>{project.description}</p>
       </div>
     </div>
   );

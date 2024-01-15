@@ -9,18 +9,24 @@ interface ProjectProps {
     project_image: string;
     tech: string[];
     onClick: () => void;
+    changeProject: (name : string, description : string, image : string) => void;
 }
 
-const ProjectBox: React.FC<ProjectProps> = ({ project_name, project_description, project_image, tech, onClick }) => {
+const ProjectBox: React.FC<ProjectProps> = ({ project_name, project_description, project_image, tech, onClick, changeProject }) => {
     const techBoxes = () => {
       return tech.map((technology, index) => (
         <TechBox key={index} technology={technology} />
       ));
     };
+
+    const clickEvent = () => {
+      onClick();
+      changeProject(project_name, project_description, project_image)
+    }
   
     const { theme, toggleTheme } = useTheme();
     return (
-      <div className={`project-box ${theme}`} onClick={onClick}>
+      <div className={`project-box ${theme}`} onClick={clickEvent}>
         <div className="project-img">
           <img src={project_image} className="image" />
         </div>
