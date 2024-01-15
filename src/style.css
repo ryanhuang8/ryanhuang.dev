@@ -15,7 +15,7 @@
 
 a {
   font-weight: 500;
-  color: #e8b32d;
+  color: #f6c751;
   text-decoration: inherit;
 }
 
@@ -85,6 +85,28 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.container.light{
+  display: flex;
+  /* border: solid red; */
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  height: 100%;
+}
+
+.container.dark{
+  display: flex;
+  /* border: solid red; */
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(33, 37, 42);
+  color: white;
+  height: 100%
 }
 
 @media (prefers-color-scheme: light) {

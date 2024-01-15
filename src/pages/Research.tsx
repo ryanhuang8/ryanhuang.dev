@@ -1,8 +1,12 @@
 import React from 'react'
+import { useTheme } from '../components/ThemeContext'
 
 function Research() {
+  const { theme, toggleTheme } = useTheme();
   return (
-    <div>Research</div>
+    <div className={`container ${theme}`}>
+      Research
+    </div>
   )
 }
 
