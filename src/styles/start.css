@@ -156,9 +156,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
   
-  .modal-container {
+.modal-container.dark {
+    position: relative; /* Relative positioning for absolute positioning of close button */
+    background: rgb(33, 37, 42);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 50%;
+    height: 70%;
+}
+
+.modal-container.light {
     position: relative; /* Relative positioning for absolute positioning of close button */
     background: white;
     padding: 20px;
@@ -166,7 +176,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     width: 50%;
     height: 70%;
-  }
+}
   
 .close-button {
     position: absolute;
@@ -200,4 +210,4 @@
     /* .project-box {
         flex-basis: 42%;
     } */
-  }
+}

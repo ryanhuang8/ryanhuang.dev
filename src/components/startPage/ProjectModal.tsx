@@ -1,11 +1,13 @@
 import React, { MouseEvent } from 'react';
 import "../../styles/start.css"
+import { useTheme } from '../ThemeContext'
 
 interface ProjectModalProps {
   closeModal: () => void;
 }
 
 const ProjectModal: React.FC<ProjectModalProps> = ({ closeModal }) => {
+  const { theme, toggleTheme } = useTheme();
   const handleCloseModal = (e: MouseEvent) => {
     e.stopPropagation();
     closeModal();
@@ -13,7 +15,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ closeModal }) => {
 
   return (
     <div className="modal-overlay" onClick={closeModal}>
-      <div className="modal-container" onClick={(e) => e.stopPropagation()}>
+      <div className={`modal-container ${theme}`} onClick={(e) => e.stopPropagation()}>
         <span className="close-button" onClick={handleCloseModal}>
           &times;
         </span>
