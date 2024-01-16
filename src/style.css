@@ -15,7 +15,7 @@
 
 a {
   font-weight: 500;
-  color: #f6c751;
+  color: #e8bb4c;
   text-decoration: inherit;
 }
 
@@ -107,6 +107,12 @@ button:focus-visible {
   background-color: rgb(33, 37, 42);
   color: white;
   height: 100%
+}
+
+.column {
+  flex: 0.5;
+  padding: 20px;
+  /* border: 1px solid #ccc; */
 }
 
 @media (prefers-color-scheme: light) {

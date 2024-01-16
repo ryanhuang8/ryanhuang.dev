@@ -13,12 +13,12 @@
 }
 
 .horizontal-footer.light {
-    background-color: rgb(255, 255, 255); /* Light mode background color */
+    background-color: rgba(215, 210, 210, 0.436); /* Light mode background color */
     color: black;
 }
   
 .horizontal-footer.dark {
-    background-color: rgba(18, 21, 23, 0.452); /* Dark mode background color */
+    background-color: rgb(17, 22, 28); /* Dark mode background color */
     color: white;
   
 }

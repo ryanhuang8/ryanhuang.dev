@@ -1,0 +1,47 @@
+.title-intro-research {
+    width: 80%;
+    margin-top: 75px;
+}
+
+.title-research {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+}
+
+.intro-research {
+    font-size: 17px;
+}
+
+.research-box {
+    width: 100%; /* Set your desired width */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+  
+.highlight {
+    width: 8px; /* Set the width of the highlight */
+    height: 100%; /* Make the highlight cover the full height of the box */
+    background-color: #3498db; /* Set the color of the highlight */
+    position: absolute;
+    left: 0; /* Position the highlight on the left side */
+    top: 0; /* Align the highlight to the top */
+}
+
+.project-title-research {
+    width: 100%;
+    padding: 2px;
+    font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    /* margin-top: 5px; */
+    margin-left: 15px;
+    /* border: 0.2px solid rgba(33, 37, 42, 0.275); */
+}
+
+.research-names {
+    margin-left: 15px;
+    padding: 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
