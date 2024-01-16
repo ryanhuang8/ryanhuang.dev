@@ -15,7 +15,7 @@ function generateNamesDiv(names: string[]): JSX.Element {
         {names.map((name, index) => (
           <React.Fragment key={index}>
             {index > 0 && <br />} {/* Add line break after the first name */}
-            {name === 'Ryan Huang' ? <span style={{ fontWeight: 'bold' }}>{name}</span> : name}
+            {name === 'Ryan Huang' ? <span style={{ fontFamily: 'proxima_nova_rgbold' }}>{name}</span> : name}
           </React.Fragment>
         ))}
       </div>
@@ -31,7 +31,7 @@ const ResearchBox : React.FC<ResearchBoxProps> = ({ title, authors, journal, lin
         <div className="project-title-research">
             {title}
         </div>
-        <div className="research-names">{authors}</div>
+        <div className="research-names">{generateNamesDiv(authors)}</div>
         <div className="research-journal">{journal}</div>
         <div>
             {Object.entries(links).map(([key, value]) => (

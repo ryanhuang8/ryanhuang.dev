@@ -10,6 +10,7 @@ function Research() {
     <div className={`container ${theme}`}>
       <div className="column">
         <ResearchIntro/>
+        <div className="research-subtitle">Publications</div>
         <ResearchBox title="Generative modeling of biological shapes and images using a probabilistic α-shape sampler" authors={['Emily Winn-Nuñez, Hadley Witt, Dhananjay Bhaskar, Ryan Huang, Jonathan Reichner, Ian Wong, Lorin Crawford']} journal="bioRxiv preprint" links={{'Link' : 'https://doi.org/10.1101/2024.01.09.574919'}} color="#3498db"/>
         <ResearchBox title="Mass Spectrometry Analysis of the Human Brain Sphingolipidome" authors={['Xin Ying Chua, Ryan Huang, Deron Herr, Mitchell KP Lai, Markus R Wenk, Federico Torta']} journal="Alzheimer’s Disease: Methods and Protocols" links={{'Link' : 'https://doi.org/10.1007/978-1-0716-2655-9_12'}} color="#e8bb4c"/>
         <ResearchBox title="The Gut-Skin Microbiota Axis and Its Role in Diabetic Wound Healing—A Review Based on Current Literature" authors={['Patel Bharati Kadamb, Kadamb Haribhai Patel, Ryan Yuki Huang, Chuen Neng Lee, and Shabbir M. Moochhala']} journal="International Journal of Molecular Sciences" links={{'Link' : 'https://doi.org/10.3390/ijms23042375'}} color="#e8bb4c"/>

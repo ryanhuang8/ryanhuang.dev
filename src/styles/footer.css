@@ -1,5 +1,5 @@
 .horizontal-footer {
-    background-color: rgb(33, 37, 42); /* Set background color */
+    /* background-color: rgb(33, 37, 42); Set background color */
     opacity: 0.9;
     overflow: hidden; /* Hide overflowing content */
     display: flex;
@@ -13,7 +13,7 @@
 }
 
 .horizontal-footer.light {
-    background-color: rgb(253, 253, 253); /* Light mode background color */
+    background-color: #ffffff; /* Light mode background color */
     color: black;
 }
   

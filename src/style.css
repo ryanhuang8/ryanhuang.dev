@@ -15,12 +15,13 @@
 
 a {
   font-weight: 500;
-  color: #e8bb4c;
+  color: #ffb95d;
   text-decoration: inherit;
+  font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
 }
 
 a:hover {
-  color: #fddd76;
+  color: #e4a551;
 }
 
 @font-face {
@@ -113,6 +114,11 @@ button:focus-visible {
   flex: 0.5;
   padding: 20px;
   /* border: 1px solid #ccc; */
+}
+
+::selection {
+  background-color: #ebc356c3; /* Set the background color */
+  color: black; /* Set the text color */
 }
 
 @media (prefers-color-scheme: light) {
