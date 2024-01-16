@@ -18,12 +18,12 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    margin-bottom: 15px;
 }
   
 .highlight {
     width: 8px; /* Set the width of the highlight */
     height: 100%; /* Make the highlight cover the full height of the box */
-    background-color: #3498db; /* Set the color of the highlight */
     position: absolute;
     left: 0; /* Position the highlight on the left side */
     top: 0; /* Align the highlight to the top */
@@ -44,4 +44,35 @@
     padding: 2px;
     display: flex;
     flex-wrap: wrap;
+}
+
+.research-journal {
+    margin-left: 15px;
+    padding: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    font-style: italic;
+}
+
+.research-links {
+    border-radius: 3px;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+
+.research-links.light {
+    color: black;
+    border: 1px solid black;
+}
+
+.research-links.dark {
+    color: white;
+    border: 1px solid white;
 }

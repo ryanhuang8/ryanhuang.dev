@@ -13,7 +13,7 @@
 }
 
 .horizontal-footer.light {
-    background-color: rgba(215, 210, 210, 0.436); /* Light mode background color */
+    background-color: rgb(253, 253, 253); /* Light mode background color */
     color: black;
 }
   

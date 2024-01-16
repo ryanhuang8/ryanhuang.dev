@@ -17,13 +17,12 @@ const Navbar = () => {
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/research">Research</a></li>
-                    <li><a href="/experience">Experience</a></li>
+                    {/* <li><a href="/experience">Experience</a></li> */}
                 </ul>
                 </div>
                 <div className="nav-buttons">
-                    <ThemeToggle onToggle={handleThemeToggle} />
+                    <ThemeToggle onToggle={handleThemeToggle}/>
                 </div>
-                
             </div>
         </nav>
       );
