@@ -9,7 +9,7 @@ interface ProjectModalProps {
 }
 
 const ProjectModal: React.FC<ProjectModalProps> = ({ project, closeModal }) => {
-  const { theme, toggleTheme } = useTheme();
+  const { theme, } = useTheme();
   const handleCloseModal = (e: MouseEvent) => {
     e.stopPropagation();
     closeModal();

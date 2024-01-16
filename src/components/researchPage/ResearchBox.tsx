@@ -23,7 +23,7 @@ function generateNamesDiv(names: string[]): JSX.Element {
 }
 
 const ResearchBox : React.FC<ResearchBoxProps> = ({ title, authors, journal, links, color }) => {
-  const { theme, toggleTheme } = useTheme();
+  const { theme, } = useTheme();
   return (
     <div className="research-box">
         <div className="highlight" style={{backgroundColor: color}}>

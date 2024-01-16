@@ -2,7 +2,7 @@ import React from 'react'
 import { useTheme } from '../components/ThemeContext'
 
 function Experience() {
-  const { theme, toggleTheme } = useTheme();
+  const { theme, } = useTheme();
   return (
     <div className={`container ${theme}`}>
       Experience

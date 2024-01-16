@@ -4,7 +4,7 @@ import ThemeToggle from './ThemeToggle';
 import { useTheme } from './ThemeContext';
 
 const Navbar = () => {
-    const { theme, toggleTheme } = useTheme();
+    const { theme, } = useTheme();
     const handleThemeToggle = () => {
         // You can implement logic to update your application's theme
         console.log('Theme toggled to:', theme);

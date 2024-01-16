@@ -5,7 +5,7 @@ import '../styles/research.css'
 import ResearchBox from '../components/researchPage/ResearchBox';
 
 function Research() {
-  const { theme, toggleTheme } = useTheme();
+  const { theme, } = useTheme();
   return (
     <div className={`container ${theme}`}>
       <div className="column">

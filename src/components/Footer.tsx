@@ -5,7 +5,7 @@ import { MdEmail } from "react-icons/md";
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 function Footer() {
-  const { theme, toggleTheme } = useTheme();
+  const { theme, } = useTheme();
   return (
     <div className={`horizontal-footer ${theme}`}>
         <a href="https://github.com/huangr0867" target="_blank">

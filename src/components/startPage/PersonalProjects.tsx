@@ -7,7 +7,7 @@ import webSnap from '../../images/websnap.png';
 import pathPerfect from '../../images/pathperfect.png';
 import stocks from '../../images/stocks.png';
 import gan from '../../images/3dgan.png'
-import Ditto from '../Ditto';
+// import Ditto from '../Ditto';
 
 function PersonalProjects() {
   const [isModalOpen, setModalOpen] = useState(false);

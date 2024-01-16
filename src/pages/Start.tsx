@@ -6,7 +6,7 @@ import { useTheme } from '../components/ThemeContext'
 
 
 function Start() {
-  const { theme, toggleTheme } = useTheme();
+  const { theme, } = useTheme();
 
   return (
     <div className={`container ${theme}`}>

@@ -24,7 +24,7 @@ const ProjectBox: React.FC<ProjectProps> = ({ project_name, project_description,
       changeProject(project_name, project_description, project_image)
     }
   
-    const { theme, toggleTheme } = useTheme();
+    const { theme, } = useTheme();
     return (
       <div className={`project-box ${theme}`} onClick={clickEvent}>
         <div className="project-img">
