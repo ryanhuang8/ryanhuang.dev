@@ -13,11 +13,20 @@
     font-size: 17px;
 }
 
+.research-icon {
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    /* border: 0.2px solid rgba(33, 37, 42, 0.275); */
+    width: 140px;
+}
+
 .research-subtitle {
     font-size: 32px;
     font-weight: bold;
     font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .research-box {

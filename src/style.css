@@ -24,6 +24,10 @@ a:hover {
   color: #e4a551;
 }
 
+.new-page {
+  font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
+}
+
 @font-face {
 	font-family: 'proxima_nova_rgregular';
 	src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot');
@@ -45,8 +49,14 @@ a:hover {
 	font-weight: normal;
 	font-style: normal;
 }
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
+  /* max-width: 100%; */
   /* font-family: system-ui, ui-rounded, ui-monospace, monospace; */
   font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
 
@@ -102,7 +112,7 @@ button:focus-visible {
 .container.dark{
   display: flex;
   /* border: solid red; */
-  width: 100%;
+  max-width: 100%;
   align-items: center;
   justify-content: center;
   background-color: rgb(33, 37, 42);
