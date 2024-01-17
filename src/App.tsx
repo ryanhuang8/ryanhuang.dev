@@ -3,8 +3,12 @@ import {router} from "./utils/routing";
 
 function App() {
   return (
+    <div>
+      hi
     <RouterProvider 
     router={router} /> 
+    </div>
+    
   )
 }
 
