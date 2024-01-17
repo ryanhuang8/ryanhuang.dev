@@ -2,7 +2,7 @@ import { useState } from 'react'
 import ProjectModal from './ProjectModal';
 import ProjectBox from './ProjectBox';
 import paperPilot from '../../images/paperpilot.png';
-import medChat from '../../images/medchat.png';
+import medChat from '../../images/MedChat.png';
 import webSnap from '../../images/websnap.png';
 import pathPerfect from '../../images/pathperfect.png';
 import stocks from '../../images/stocks.png';
