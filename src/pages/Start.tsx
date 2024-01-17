@@ -1,4 +1,3 @@
-import React from 'react'
 import Introduction from '../components/startPage/Introduction'
 import PersonalProjects from '../components/startPage/PersonalProjects'
 import '../styles/start.css'

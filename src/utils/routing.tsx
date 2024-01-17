@@ -1,6 +1,5 @@
 import { createBrowserRouter } from 'react-router-dom';
 import Root from '../layout/RootLayout'
-import React from 'react';
 import Start from '../pages/Start'
 import Research from '../pages/Research'
 import Experience from '../pages/Experience';

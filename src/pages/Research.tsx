@@ -1,4 +1,3 @@
-import React from 'react'
 import { useTheme } from '../components/ThemeContext'
 import ResearchIntro from '../components/researchPage/ResearchIntro';
 import '../styles/research.css'
