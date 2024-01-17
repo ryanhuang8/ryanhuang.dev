@@ -1,4 +1,4 @@
-import React, { MouseEvent } from 'react';
+import { MouseEvent } from 'react';
 import "../../styles/start.css"
 import { useTheme } from '../ThemeContext'
 import { RxCross2 } from "react-icons/rx";

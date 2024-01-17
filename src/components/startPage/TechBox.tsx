@@ -1,4 +1,3 @@
-import React from 'react'
 import TechColors from '../../utils/TechColors'
 import '../../styles/start.css'
 

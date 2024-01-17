@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { IoDocumentText } from "react-icons/io5";
 import '../../styles/start.css';

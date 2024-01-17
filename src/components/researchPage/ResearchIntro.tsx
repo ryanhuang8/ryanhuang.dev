@@ -1,4 +1,3 @@
-import React from 'react'
 import '../../styles/research.css'
 import { AcademiconsGoogleScholarSquare } from './GoogleScholar'
 

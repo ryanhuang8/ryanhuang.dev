@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import ProjectModal from './ProjectModal';
 import ProjectBox from './ProjectBox';
 import paperPilot from '../../images/paperpilot.png';

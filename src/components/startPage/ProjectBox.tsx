@@ -1,4 +1,3 @@
-import React from 'react'
 import "../../styles/start.css"
 import { useTheme } from '../ThemeContext'
 import TechBox from './TechBox'

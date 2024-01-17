@@ -1,4 +1,3 @@
-import React from 'react';
 import '../styles/navbar.css'
 import ThemeToggle from './ThemeToggle';
 import { useTheme } from './ThemeContext';

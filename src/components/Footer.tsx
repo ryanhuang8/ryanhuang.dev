@@ -1,4 +1,3 @@
-import React from 'react'
 import '../styles/footer.css'
 import { useTheme } from './ThemeContext';
 import { MdEmail } from "react-icons/md";
