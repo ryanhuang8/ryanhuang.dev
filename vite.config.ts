@@ -7,6 +7,10 @@ export default defineConfig({
   base: "/",
   plugins: [react()],
   build: {
+    commonjsOptions: {
+      transformMixedEsModules: true,
+      // include: [/linked-dep/, /node_modules/],
+    },
     rollupOptions: {
       input: {
         main: resolve(__dirname, "index.html"),
