@@ -1,6 +1,7 @@
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { IoDocumentText } from "react-icons/io5";
 import '../../styles/start.css';
+import Resume from '../../files/Ryan-Yuki-Huang-Resume.pdf';
 
 function Introduction() {
   return (
@@ -12,7 +13,7 @@ function Introduction() {
             I study computer science <a href="https://www.brown.edu/" target="_blank">@Brown University</a> and am part of the <a href="https://plme.med.brown.edu/" target="_blank">PLME Program</a>. I'm currently interested in software engineering, AI/ML research, and biotech.
         </div>
         <div className="simple-navigation">
-            <a href="src/files/Ryan Yuki Huang Resume.pdf" target="_blank">
+            <a href={Resume} target="_blank">
                 <div className="icon-text">
                     <IoDocumentText size={24}/>
                     <div>Resume</div>
