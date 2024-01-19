@@ -2,6 +2,8 @@ import { useTheme } from '../components/ThemeContext'
 import ResearchIntro from '../components/researchPage/ResearchIntro';
 import '../styles/research.css'
 import ResearchBox from '../components/researchPage/ResearchBox';
+import PLMESRA from '../files/SRA Poster Ryan Huang.pdf';
+import BURISE from '../files/BU_RISE_Poster2021.pptx.pdf';
 
 function Research() {
   const { theme, } = useTheme();
@@ -17,6 +19,10 @@ function Research() {
         <ResearchBox title="Quantitative circular flow immunoassays with trained object recognition to detect antibodies to SARS-CoV-2 membrane glycoprotein" authors={['Ryan Yuki Huang, Deron Raymond Herr']} journal="Biochemical and Biophysical Research Communications" links={{'Link' : 'https://doi.org/10.1016/j.bbrc.2021.05.073'}} color="#3498db"/>
         <ResearchBox title="Circulating Antibodies to Skin Bacteria Detected by Serological Lateral Flow Immunoassays Differentially Correlated With Bacterial Abundance" authors={['Ryan Yuki Huang, Chuen Neng Lee, Shabbir Moochhala']} journal="Frontiers in Microbiology" links={{'Link' : 'https://doi.org/10.3389/fmicb.2021.709562'}} color="#e8bb4c"/>
         <ResearchBox title="Manipulation of Alcohol and Short-Chain Fatty Acids in the Metabolome of Commensal and Virulent Klebsiella pneumoniae by Linolenic Acid" authors={['Ryan Yuki Huang, Deron Raymond Herr, Shabbir Moochhala']} journal="Microorganisms" links={{'Link' : 'https://doi.org/10.3390/microorganisms8050773'}} color="#e8bb4c"/>
+        <div className="research-subtitle">Posters</div>
+        <ResearchBox title="A Topology-Based Machine Learning Framework for Breast Cancer Subtype Classification in Histology Images" authors={['Ryan Yuki Huang, Lorin Crawford']} journal="Poster presented at PLME Sympsium" links={{'Link' : PLMESRA}} color="#3498db"/>
+        <ResearchBox title="The Effects of Urbanization on Soil Microbiomes: An Analysis on Mycorrhizal Fungi Biology using Genome-Scale Metabolic Modelling" authors={['Ryan Yuki Huang, Kathryn Atherton, Jennifer Bhatnagar']} journal="Poster presented at BU Poster Symposium" links={{'Link' : BURISE}} color="#3498db"/>
+
 
       </div>
     </div>
