@@ -14,7 +14,7 @@ const Navbar = () => {
             <div className="center-nav">
                 <div className="nav-tabs">
                 <ul>
-                    <li><a href="/">Ryan Huang</a></li>
+                    <li><a href="/">Home</a></li>
                     <li><a href="/research" className="new-page">Research</a></li>
                     {/* <li><a href="/experience">Experience</a></li> */}
                 </ul>

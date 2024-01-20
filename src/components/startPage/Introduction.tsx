@@ -10,7 +10,7 @@ function Introduction() {
             Ryan Huang
         </div>
         <div className="intro">
-            I study computer science <a href="https://www.brown.edu/" target="_blank">@Brown University</a> and am part of the <a href="https://plme.med.brown.edu/" target="_blank">PLME Program</a>. I'm currently interested in software engineering, AI/ML research, and biotech.
+            I study computer science <a href="https://www.brown.edu/" target="_blank">@ Brown University</a> and am part of the <a href="https://plme.med.brown.edu/" target="_blank">PLME Program</a>. I'm currently interested in software engineering, AI/ML research, and biotech.
         </div>
         <div className="simple-navigation">
             <a href={Resume} target="_blank">
