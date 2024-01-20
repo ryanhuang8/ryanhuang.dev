@@ -22,7 +22,12 @@
 
 .icon-text {
     display: flex;
-    gap: 5%;
+    justify-content: center;
+    /* gap: 5%; */
+}
+
+.text-by-icon {
+    margin-left: 5px;
 }
 
 .proj-title {

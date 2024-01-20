@@ -16,19 +16,19 @@ function Introduction() {
             <a href={Resume} target="_blank">
                 <div className="icon-text">
                     <IoDocumentText size={24}/>
-                    <div>Resume</div>
+                    <div className="text-by-icon">Resume</div>
                 </div>
             </a>
             <a href="https://github.com/huangr0867" target="_blank">
                 <div className="icon-text">
                   <FaGithub size={22}/>
-                  <div>Github</div>
+                  <div className="text-by-icon">Github</div>
                 </div>
             </a>
             <a href="https://www.linkedin.com/in/ryanyukihuang/" target="_blank">
               <div className="icon-text">
                   <FaLinkedin size={22}/>
-                  <div>LinkedIn</div>
+                  <div className="text-by-icon">LinkedIn</div>
               </div>
             </a>
         </div>
