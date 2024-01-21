@@ -4,7 +4,7 @@ import { useTheme } from '../ThemeContext'
 import { RxCross2 } from "react-icons/rx";
 
 interface ProjectModalProps {
-  project: {name : string, description : string, image : string}
+  project: {name : string, description : string, image : string, links : { [key: string]: string }}
   closeModal: () => void;
 }
 
@@ -28,6 +28,13 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, closeModal }) => {
         </div>
         <h2 className="modal-title">{project.name}</h2>
         <p>{project.description}</p>
+        <div>
+            {Object.entries(project.links).map(([key, value]) => (
+            <button className={`project-links ${theme}`} key={key} onClick={() => window.open(value, '_blank')} type="button">
+                {key}
+            </button>
+            ))}
+        </div>
       </div>
     </div>
   );

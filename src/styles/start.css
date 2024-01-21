@@ -143,6 +143,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     width: 38%;
     height: 65%;
+    overflow-y: auto;
 }
 
 .modal-container.light {
@@ -153,6 +154,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     width: 38%;
     height: 65%;
+    overflow-y: auto;
 }
 
 .modal-title {
@@ -220,6 +222,29 @@
     justify-content: center;
     font-size: 14px;
     color: white;
+}
+
+.project-links {
+    border-radius: 3px;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+
+.project-links.light {
+    color: black;
+    border: 1px solid black;
+}
+
+.project-links.dark {
+    color: white;
+    border: 1px solid white;
 }
 
 @media screen and (max-width: 1200px) {

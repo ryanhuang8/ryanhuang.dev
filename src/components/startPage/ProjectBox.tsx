@@ -7,11 +7,12 @@ interface ProjectProps {
     project_description: string;
     project_image: string;
     tech: string[];
+    links : { [key: string]: string };
     onClick: () => void;
-    changeProject: (name : string, description : string, image : string) => void;
+    changeProject: (name : string, description : string, image : string, links : { [key: string]: string }) => void;
 }
 
-const ProjectBox: React.FC<ProjectProps> = ({ project_name, project_description, project_image, tech, onClick, changeProject }) => {
+const ProjectBox: React.FC<ProjectProps> = ({ project_name, project_description, links, project_image, tech, onClick, changeProject }) => {
     const techBoxes = () => {
       return tech.map((technology, index) => (
         <TechBox key={index} technology={technology} />
@@ -20,7 +21,7 @@ const ProjectBox: React.FC<ProjectProps> = ({ project_name, project_description,
 
     const clickEvent = () => {
       onClick();
-      changeProject(project_name, project_description, project_image)
+      changeProject(project_name, project_description, project_image, links)
     }
   
     const { theme, } = useTheme();
