@@ -1,4 +1,4 @@
-import { MouseEvent } from 'react';
+import { MouseEvent, useEffect } from 'react';
 import "../../styles/start.css"
 import { useTheme } from '../ThemeContext'
 import { RxCross2 } from "react-icons/rx";
@@ -15,9 +15,23 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, closeModal }) => {
     closeModal();
   };
 
+  const handleModalClick = (e: MouseEvent) => {
+    e.stopPropagation();
+  };
+
+  useEffect(() => {
+    // Add a class to the body element when the modal is open
+    document.body.classList.add('modal-open');
+
+    // Cleanup function to remove the class when the component unmounts
+    return () => {
+      document.body.classList.remove('modal-open');
+    };
+  }, []);
+
   return (
     <div className="modal-overlay" onClick={closeModal}>
-      <div className={`modal-container ${theme}`} onClick={(e) => e.stopPropagation()}>
+      <div className={`modal-container ${theme}`} onClick={handleModalClick}>
         <span className="close-button" onClick={handleCloseModal}>
           <RxCross2/>
         </span>
@@ -30,7 +44,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, closeModal }) => {
         <p>{project.description}</p>
         <div>
             {Object.entries(project.links).map(([key, value]) => (
-            <button className={`project-links ${theme}`} key={key} onClick={() => window.open(value, '_blank')} type="button">
+            <button className={`research-links ${theme}`} key={key} onClick={() => window.open(value, '_blank')} type="button">
                 {key}
             </button>
             ))}
