@@ -1,10 +1,10 @@
-import { createBrowserRouter } from 'react-router-dom';
-import Root from '../layout/RootLayout'
-import Start from '../pages/Start'
-import Research from '../pages/Research'
+import { createHashRouter } from 'react-router-dom';
+import Root from '../layout/RootLayout';
+import Start from '../pages/Start';
+import Research from '../pages/Research';
 import Experience from '../pages/Experience';
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
     {
         path: "/",
         element: <Root />,
@@ -22,6 +22,5 @@ export const router = createBrowserRouter([
                 element: <Experience />
             }
         ]
-
     }
-])
+]);
