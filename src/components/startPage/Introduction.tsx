@@ -19,7 +19,7 @@ function Introduction() {
                     <div className="text-by-icon">Resume</div>
                 </div>
             </a>
-            <a href="https://github.com/huangr0867" target="_blank">
+            <a href="https://github.com/ryanhuang8" target="_blank">
                 <div className="icon-text">
                   <FaGithub size={22}/>
                   <div className="text-by-icon">Github</div>

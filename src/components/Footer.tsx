@@ -7,7 +7,7 @@ function Footer() {
   const { theme, } = useTheme();
   return (
     <div className={`horizontal-footer ${theme}`}>
-        <a href="https://github.com/huangr0867" target="_blank">
+        <a href="https://github.com/ryanhuang8" target="_blank">
             <div className="icon-text">
                 <FaGithub size={22}/>
                 <div className="text-by-icon">Github</div>
