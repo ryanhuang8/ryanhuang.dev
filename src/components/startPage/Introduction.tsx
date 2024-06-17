@@ -1,7 +1,7 @@
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { IoDocumentText } from "react-icons/io5";
 import '../../styles/start.css';
-import Resume from '../../files/Ryan-Yuki-Huang-Resume.pdf';
+import Resume from '../../files/SWE_Resume.pdf';
 
 function Introduction() {
   return (
