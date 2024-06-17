@@ -97,9 +97,16 @@
     /* justify-content: center; */
 }
 
+.extra-description {
+    font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+    color: #ffb95d;
+    width: 250px;
+    font-size: 14px;
+}
 .project-description {
     width: 250px;
-    height: 69px;
+    height: flex;
+    margin-bottom: 10px;
     /* border: 1px solid #ccc; */
     font-size: 14px;
     /* padding: 5px; */
