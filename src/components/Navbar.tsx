@@ -16,6 +16,7 @@ const Navbar = () => {
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/research" className="new-page">Research</a></li>
+                    <li><a href="/blogs" className="new-page">Blog</a></li>
                     {/* <li><a href="/experience">Experience</a></li> */}
                 </ul>
                 </div>

@@ -3,6 +3,7 @@ import Root from "../layout/RootLayout";
 import Start from "../pages/Start";
 import Research from "../pages/Research";
 import Experience from "../pages/Experience";
+import Blog from "../pages/Blog";
 
 export const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ export const router = createBrowserRouter([
       {
         path: "experience",
         element: <Experience />,
+      },
+      {
+        path: "blogs",
+        element: <Blog />,
       },
     ],
   },
