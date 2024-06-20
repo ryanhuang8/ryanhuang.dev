@@ -1,6 +1,6 @@
 import { useTheme } from "../components/ThemeContext";
 import BlogsIntro from "../components/blogsPage/BlogsIntro";
-import Template from "../components/blogsPage/blogs/Template";
+// import Template from "../components/blogsPage/blogs/Template";
 
 function Blog() {
   const { theme } = useTheme();
