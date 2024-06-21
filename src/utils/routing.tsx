@@ -4,6 +4,7 @@ import Start from "../pages/Start";
 import Research from "../pages/Research";
 import Experience from "../pages/Experience";
 import Blog from "../pages/Blog";
+import Oscar from "../components/blogsPage/blogs/Oscar";
 
 export const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ export const router = createBrowserRouter([
       {
         path: "blogs",
         element: <Blog />,
+      },
+      {
+        path: "blogs/oscar",
+        element: <Oscar />,
       },
     ],
   },
