@@ -20,6 +20,10 @@ a {
   font-family: "proxima_nova_rgbold", Helvetica, Arial, sans-serif;
 }
 
+b {
+  font-family: "proxima_nova_rgbold", Helvetica, Arial, sans-serif;
+}
+
 a:hover {
   color: #e4a551;
 }

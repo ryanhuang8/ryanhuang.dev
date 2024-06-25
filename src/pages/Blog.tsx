@@ -15,13 +15,14 @@ function Blog() {
           description="Scripts/Commands for OSCAR"
           date="June 19, 2024"
           tags={["#Computing"]}
+          link="oscar"
         />
-        <BlogBox title="In Progress" description="" date="" tags={[]} />
-        <BlogBox title="In Progress" description="" date="" tags={[]} />
-        <BlogBox title="In Progress" description="" date="" tags={[]} />
-        <BlogBox title="In Progress" description="" date="" tags={[]} />
-        <BlogBox title="In Progress" description="" date="" tags={[]} />
-        <BlogBox title="In Progress" description="" date="" tags={[]} />
+        <BlogBox title="In Progress" description="" date="" tags={[]} link="" />
+        <BlogBox title="In Progress" description="" date="" tags={[]} link="" />
+        <BlogBox title="In Progress" description="" date="" tags={[]} link="" />
+        <BlogBox title="In Progress" description="" date="" tags={[]} link="" />
+        <BlogBox title="In Progress" description="" date="" tags={[]} link="" />
+        <BlogBox title="In Progress" description="" date="" tags={[]} link="" />
         {/* <Template /> */}
       </div>
     </div>

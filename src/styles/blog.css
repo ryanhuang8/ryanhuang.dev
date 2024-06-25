@@ -69,3 +69,53 @@
   margin-top: 85px;
   display: flex;
 }
+
+.blog-description {
+  font-size: 18px;
+  font-family: "proxima_nova_rgregular", Helvetica, Arial, sans-serif;
+  margin-top: 10px;
+}
+
+.container-toc {
+  width: 10%;
+  position: fixed; /* Keeps the sidebar fixed while scrolling */
+  top: 100px;
+  left: 10px;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Style for the ToC */
+.sidebar {
+  width: 100%; /* Ensures the sidebar occupies full width of container-toc */
+}
+
+.toc-title {
+  font-family: "proxima_nova_rgbold", Helvetica, Arial, sans-serif;
+  margin-bottom: 10px;
+  font-size: large;
+}
+
+.toc-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.toc-list li {
+  margin-bottom: 10px;
+}
+
+/* .toc-list li a {
+} */
+
+.section-title {
+  font-family: "proxima_nova_rgbold", Helvetica, Arial, sans-serif;
+}
+
+.oscar-image {
+  max-width: 75px;
+  height: auto;
+  display: block;
+  margin: 10px;
+}
