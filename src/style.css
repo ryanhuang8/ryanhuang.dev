@@ -111,10 +111,11 @@ button:focus-visible {
 }
 
 .container.light {
+  min-height: 100vh;
   display: flex;
   /* border: solid red; */
   width: 100%;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   background-color: white;
   color: black;
@@ -122,10 +123,11 @@ button:focus-visible {
 }
 
 .container.dark {
+  min-height: 100vh;
   display: flex;
   /* border: solid red; */
   max-width: 100%;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   background-color: rgb(33, 37, 42);
   color: white;

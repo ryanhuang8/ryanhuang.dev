@@ -9,7 +9,6 @@ function Blog() {
     <div className={`container ${theme}`}>
       <div className="column">
         <BlogsIntro />
-        Currently in-progress...
         <BlogBox
           title="Brown Oscar Documentation"
           description="Scripts/Commands for OSCAR"
@@ -17,12 +16,7 @@ function Blog() {
           tags={["#Computing"]}
           link="oscar"
         />
-        <BlogBox title="In Progress" description="" date="" tags={[]} link="" />
-        <BlogBox title="In Progress" description="" date="" tags={[]} link="" />
-        <BlogBox title="In Progress" description="" date="" tags={[]} link="" />
-        <BlogBox title="In Progress" description="" date="" tags={[]} link="" />
-        <BlogBox title="In Progress" description="" date="" tags={[]} link="" />
-        <BlogBox title="In Progress" description="" date="" tags={[]} link="" />
+
         {/* <Template /> */}
       </div>
     </div>
