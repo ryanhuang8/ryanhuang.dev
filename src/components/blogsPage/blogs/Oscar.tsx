@@ -1,4 +1,3 @@
-import React from "react";
 import { useTheme } from "../../ThemeContext";
 import "../../../styles/research.css";
 import "../../../styles/blog.css";
