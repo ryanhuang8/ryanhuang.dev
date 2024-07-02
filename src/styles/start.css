@@ -1,8 +1,13 @@
 .title-intro {
-  width: 90%;
+  width: 100%;
   margin-top: 85px;
 }
 
+.title-intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .title {
   font-size: 50px;
   font-weight: bold;
@@ -255,6 +260,20 @@
 }
 
 .modal-open {
+  overflow: hidden;
+}
+
+.profile-pic-container {
+  margin-left: 35px;
+}
+
+.profile-pic {
+  margin-top: 15%;
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(11, 13, 15, 0.431);
   overflow: hidden;
 }
 
