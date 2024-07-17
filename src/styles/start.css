@@ -300,5 +300,6 @@
   .profile-pic-container {
     order: 1;
     margin-bottom: 20px;
+    margin-left: 0px;
   }
 }
