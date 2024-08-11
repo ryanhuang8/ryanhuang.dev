@@ -18,7 +18,7 @@ function Research() {
           authors={[
             "Aditya Ganeshan, Ryan Y. Huang, Xianghao Xu, R. Kenny Jones, Daniel Ritchie",
           ]}
-          journal="aRxiv preprint"
+          journal="ACM Transactions on Graphics (SIGGRAPH Asia 2024)"
           links={{ Link: "https://arxiv.org/abs/2405.20319" }}
           color="#3498db"
         />
@@ -42,8 +42,10 @@ function Research() {
         <ResearchBox
           title="CafeLLM: Context-Aware Fine-Grained Semantic Clustering using Large Language Models"
           authors={["Ryan Yuki Huang, Colin Small"]}
-          journal="Springer Lecture Notes in Computer Science (GLOW @ IJCAI 2024)"
-          links={{ Link: "" }}
+          journal="Springer Lecture Notes in Computer Science (GLOW @ IJCAI 2024, Best Paper Runner-Up 🏅)"
+          links={{
+            Link: "https://link.springer.com/chapter/10.1007/978-981-97-6125-8_6",
+          }}
           color="#72bf6a"
         />
         <div className="research-subtitle2">Experimental</div>
