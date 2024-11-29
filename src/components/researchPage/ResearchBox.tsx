@@ -1,47 +1,58 @@
-import React from 'react'
-import { useTheme } from '../ThemeContext'
-
+import React from "react";
+import { useTheme } from "../ThemeContext";
 interface ResearchBoxProps {
-    title : string;
-    authors : string[];
-    journal : string;
-    links : { [key: string]: string };
-    color : string;
+  title: string;
+  authors: string[];
+  journal: string;
+  links: { [key: string]: string };
+  color: string;
 }
 
 function generateNamesDiv(names: string[]): JSX.Element {
-    return (
-      <div>
-        {names.map((name, index) => (
-          <React.Fragment key={index}>
-            {index > 0 && <br />} {/* Add line break after the first name */}
-            {name === 'Ryan Huang' ? <span style={{ fontFamily: 'proxima_nova_rgbold' }}>{name}</span> : name}
-          </React.Fragment>
-        ))}
-      </div>
-    );
+  return (
+    <div>
+      {names.map((name, index) => (
+        <React.Fragment key={index}>
+          {index > 0 && <br />} {/* Add line break after the first name */}
+          {name === "Ryan Huang" ? (
+            <span style={{ fontFamily: "proxima_nova_rgbold" }}>{name}</span>
+          ) : (
+            name
+          )}
+        </React.Fragment>
+      ))}
+    </div>
+  );
 }
 
-const ResearchBox : React.FC<ResearchBoxProps> = ({ title, authors, journal, links, color }) => {
-  const { theme, } = useTheme();
+const ResearchBox: React.FC<ResearchBoxProps> = ({
+  title,
+  authors,
+  journal,
+  links,
+  color,
+}) => {
+  const { theme } = useTheme();
   return (
     <div className="research-box">
-        <div className="highlight" style={{backgroundColor: color}}>
-        </div>
-        <div className="project-title-research">
-            {title}
-        </div>
-        <div className="research-names">{generateNamesDiv(authors)}</div>
-        <div className="research-journal">{journal}</div>
-        <div>
-            {Object.entries(links).map(([key, value]) => (
-            <button className={`research-links ${theme}`} key={key} onClick={() => window.open(value, '_blank')} type="button">
-                {key}
-            </button>
-            ))}
-        </div>
+      <div className="highlight" style={{ backgroundColor: color }}></div>
+      <div className="project-title-research">{title}</div>
+      <div className="research-names">{generateNamesDiv(authors)}</div>
+      <div className="research-journal">{journal}</div>
+      <div>
+        {Object.entries(links).map(([key, value]) => (
+          <button
+            className={`research-links ${theme}`}
+            key={key}
+            onClick={() => window.open(value, "_blank")}
+            type="button"
+          >
+            {key}
+          </button>
+        ))}
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default ResearchBox
+export default ResearchBox;

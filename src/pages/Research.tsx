@@ -4,6 +4,8 @@ import "../styles/research.css";
 import ResearchBox from "../components/researchPage/ResearchBox";
 import PLMESRA from "../files/SRA Poster Ryan Huang.pdf";
 import BURISE from "../files/BU_RISE_Poster2021.pptx.pdf";
+import Resume2024 from "../files/Ryan Huang Resume 2024.pdf";
+import { IoDocumentText } from "react-icons/io5";
 
 function Research() {
   const { theme } = useTheme();
@@ -19,7 +21,7 @@ function Research() {
             "Aditya Ganeshan, Ryan Y. Huang, Xianghao Xu, R. Kenny Jones, Daniel Ritchie",
           ]}
           journal="ACM Transactions on Graphics (SIGGRAPH Asia 2024)"
-          links={{ Link: "https://arxiv.org/abs/2405.20319" }}
+          links={{ Link: "https://dl.acm.org/doi/10.1145/3687922" }}
           color="#3498db"
         />
         <ResearchBox
@@ -103,6 +105,14 @@ function Research() {
           links={{ Link: BURISE }}
           color="#e8bb4c"
         />
+        <div>
+          <a href={Resume2024} target="_blank">
+            <div className="icon-text">
+              <IoDocumentText size={24} />
+              <div className="text-by-icon"></div>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
   );
