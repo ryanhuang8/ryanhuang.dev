@@ -52,6 +52,13 @@ function Research() {
         />
         <div className="research-subtitle2">Experimental</div>
         <ResearchBox
+          title="Thoughtful Application of Artificial Intelligence Technique Improves Diagnostic Accuracy and Supportive Clinical Decision-Making"
+          authors={["Joshua Woo, Andrew Yang, Ryan Huang, Prem Ramkumar"]}
+          journal="Arthroscopy: The Journal of Arthroscopic & Related Surgery"
+          links={{ Link: "https://doi.org/10.1016/j.arthro.2024.12.009" }}
+          color="#e8bb4c"
+        />
+        <ResearchBox
           title="Mass Spectrometry Analysis of the Human Brain Sphingolipidome"
           authors={[
             "Xin Ying Chua, Ryan Huang, Deron Herr, Mitchell KP Lai, Markus R Wenk, Federico Torta",
