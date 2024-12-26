@@ -8,6 +8,7 @@ const TechColors: { [key: string]: string } = {
   Dart: "#1a43bf",
   Javascript: "#ecb753",
   MongoDB: "#4db33d",
+  ThreeJS: "#4A4C5C",
   "Jupyter Notebook": "#fc6a03",
   "#Computing": "#1FBED6",
 };
