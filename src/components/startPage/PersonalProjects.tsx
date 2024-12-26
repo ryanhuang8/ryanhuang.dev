@@ -50,7 +50,7 @@ function PersonalProjects() {
             "Helping students memorize flashcards with feedback from LLMs"
           }
           project_image={memoTech}
-          tech={["Typescript", "Flask", "MongoDB"]}
+          tech={["TypeScript", "Flask", "MongoDB"]}
           links={{
             Github: "https://github.com/ryanhuang8/memotech",
             Link: "https://bonono.netlify.app/",
@@ -65,7 +65,7 @@ function PersonalProjects() {
             "Interactive 3D scene with Minecraft Steve in a holy cathedral, implemented with crepuscular rays"
           }
           project_image={sacredSteve}
-          tech={["Javascript", "ThreeJS"]}
+          tech={["JavaScript", "ThreeJS"]}
           links={{
             Link: "https://sacredsteve.netlify.app/",
             Github: "https://github.com/ryanhuang8/SacredSteve",
@@ -90,7 +90,7 @@ function PersonalProjects() {
             "Literature search for research papers via approximate nearest neighbors on doc2vec embeddings"
           }
           project_image={paperPilot}
-          tech={["Typescript", "Flask", "Firebase"]}
+          tech={["TypeScript", "Flask", "Firebase"]}
           links={{
             Github:
               "https://github.com/cs0320-f23/term-project-tfong1-ryhuang-dhan25-eko10",
@@ -104,7 +104,7 @@ function PersonalProjects() {
             "Finding a scenic, round path to plan a jog; path is calculated based on the user's preferred distance"
           }
           project_image={pathPerfect}
-          tech={["Javascript", "MongoDB"]}
+          tech={["JavaScript", "MongoDB"]}
           links={{
             Github: "https://github.com/Eric-04/PathPerfect",
             Devpost: "https://devpost.com/software/pathperfect",
