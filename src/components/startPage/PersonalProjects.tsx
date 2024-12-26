@@ -52,8 +52,8 @@ function PersonalProjects() {
           project_image={memoTech}
           tech={["TypeScript", "Flask", "MongoDB"]}
           links={{
-            Github: "https://github.com/ryanhuang8/memotech",
             Link: "https://bonono.netlify.app/",
+            Github: "https://github.com/ryanhuang8/memotech",
             Devpost: "https://devpost.com/software/memotech-yfacpb",
           }}
           onClick={handleProjectBoxClick}

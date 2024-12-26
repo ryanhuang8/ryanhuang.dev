@@ -4,8 +4,8 @@ import "../styles/research.css";
 import ResearchBox from "../components/researchPage/ResearchBox";
 import PLMESRA from "../files/SRA Poster Ryan Huang.pdf";
 import BURISE from "../files/BU_RISE_Poster2021.pptx.pdf";
-import Resume2024 from "../files/Ryan Huang Resume 2024.pdf";
-import { IoDocumentText } from "react-icons/io5";
+// import Resume2024 from "../files/Ryan Huang Resume 2024.pdf";
+// import { IoDocumentText } from "react-icons/io5";
 
 function Research() {
   const { theme } = useTheme();
@@ -105,14 +105,14 @@ function Research() {
           links={{ Link: BURISE }}
           color="#e8bb4c"
         />
-        <div>
+        {/* <div>
           <a href={Resume2024} target="_blank">
             <div className="icon-text">
               <IoDocumentText size={24} />
               <div className="text-by-icon"></div>
             </div>
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
