@@ -1,7 +1,7 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { IoDocumentText } from "react-icons/io5";
+// import { IoDocumentText } from "react-icons/io5";
 import "../../styles/start.css";
-import Resume from "../../files/SWE_Resume.pdf";
+// import Resume from "../../files/SWE_Resume.pdf";
 import ProfilePic from "../../images/larger_pic.png"; // Make sure to import your profile picture
 
 function Introduction() {
@@ -18,16 +18,15 @@ function Introduction() {
           <a href="https://plme.med.brown.edu/" target="_blank">
             PLME Program
           </a>
-          . I'm currently interested in software engineering, BioML research,
-          and biotech.
+          . I'm currently interested in software engineering and computer vision research.
         </div>
         <div className="simple-navigation">
-          <a href={Resume} target="_blank">
+          {/* <a href={Resume} target="_blank">
             <div className="icon-text">
               <IoDocumentText size={24} />
               <div className="text-by-icon">Resume</div>
             </div>
-          </a>
+          </a> */}
           <a href="https://github.com/ryanhuang8" target="_blank">
             <div className="icon-text">
               <FaGithub size={22} />
