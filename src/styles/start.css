@@ -120,7 +120,7 @@
 .project-title {
   width: 250px;
   height: 25px;
-  padding: 2px;
+  /* padding: 2px; */
   font-family: "proxima_nova_rgbold", Helvetica, Arial, sans-serif;
   font-size: 18px;
   margin-top: 5px;
