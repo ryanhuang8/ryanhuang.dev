@@ -13,10 +13,10 @@ function Introduction() {
           I study computer science{" "}
           <a href="https://www.brown.edu/" target="_blank">
             @ Brown University
-          </a>{" "}
+          {/* </a>{" "}
           and am part of the{" "}
           <a href="https://plme.med.brown.edu/" target="_blank">
-            PLME Program
+            PLME Program */}
           </a>
           . I'm currently interested in software engineering and computer vision research.
         </div>
