@@ -52,6 +52,13 @@ function Research() {
         />
         <div className="research-subtitle2">Experimental</div>
         <ResearchBox
+          title="Ribotyping Staphylococcus epidermidis Using Probabilistic Sequence Analysis and Levenshtein Distance Algorithm"
+          authors={["Ryan Yuki Huang, Chengye Zhang, Han Liang Lim"]}
+          journal="Current Microbiology"
+          links={{ Link: "https://link.springer.com/article/10.1007/s00284-024-04057-1" }}
+          color="#e8bb4c"
+        />
+        <ResearchBox
           title="Thoughtful Application of Artificial Intelligence Technique Improves Diagnostic Accuracy and Supportive Clinical Decision-Making"
           authors={["Joshua Woo, Andrew Yang, Ryan Huang, Prem Ramkumar"]}
           journal="Arthroscopy: The Journal of Arthroscopic & Related Surgery"
