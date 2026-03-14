@@ -1,8 +1,8 @@
 import { useState } from "react";
 import ProjectModal from "./ProjectModal";
 import ProjectBox from "./ProjectBox";
-import paperPilot from "../../images/paperpilot.png";
 import medChat from "../../images/MedChat.png";
+import askEcho from "../../images/AskEcho2.png";
 // import webSnap from '../../images/webSnap.png';
 import memoTech from "../../images/memotech.jpeg";
 import pathPerfect from "../../images/pathperfect.png";
@@ -60,6 +60,18 @@ function PersonalProjects() {
           changeProject={changeProject}
         ></ProjectBox>
         <ProjectBox
+          project_name={"AskEcho 🏅"}
+          extra_description="ElevenLabs Hackathon 2025 Winner"
+          project_description={
+            "Learn anything on your screen with an ElevenLabs Conversational AI Agent"
+          }
+          project_image={askEcho}
+          tech={["TypeScript", "FastAPI", "n8n", "Supabase"]}
+          links={{}}
+          onClick={handleProjectBoxClick}
+          changeProject={changeProject}
+        ></ProjectBox>
+        <ProjectBox
           project_name={"Sacred Steve"}
           project_description={
             "Interactive 3D scene with Minecraft Steve in a holy cathedral, implemented with crepuscular rays"
@@ -81,20 +93,6 @@ function PersonalProjects() {
           project_image={medChat}
           tech={["Flutter", "Dart", "Firebase"]}
           links={{ Github: "https://github.com/ryanhuang8/MedChat" }}
-          onClick={handleProjectBoxClick}
-          changeProject={changeProject}
-        ></ProjectBox>
-        <ProjectBox
-          project_name={"PaperPilot"}
-          project_description={
-            "Literature search for research papers via approximate nearest neighbors on doc2vec embeddings"
-          }
-          project_image={paperPilot}
-          tech={["TypeScript", "Flask", "Firebase"]}
-          links={{
-            Github:
-              "https://github.com/cs0320-f23/term-project-tfong1-ryhuang-dhan25-eko10",
-          }}
           onClick={handleProjectBoxClick}
           changeProject={changeProject}
         ></ProjectBox>{" "}

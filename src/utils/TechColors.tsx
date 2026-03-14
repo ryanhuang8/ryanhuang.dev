@@ -11,6 +11,9 @@ const TechColors: { [key: string]: string } = {
   ThreeJS: "#91C8FA",
   "Jupyter Notebook": "#fc6a03",
   "#Computing": "#1FBED6",
+  FastAPI: "orange",
+  n8n: "#ff6f61",
+  Supabase: "#3ecf8e",
 };
 
 export default TechColors;
