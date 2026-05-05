@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 // import { IoDocumentText } from "react-icons/io5";
 import "../../styles/start.css";
 // import Resume from "../../files/SWE_Resume.pdf";
-import ProfilePic from "../../images/larger_pic.png"; // Make sure to import your profile picture
+import ProfilePic from "../../images/iceland_pfp.png"; // Make sure to import your profile picture
 
 function Introduction() {
   return (
