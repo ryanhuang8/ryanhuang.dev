@@ -3,10 +3,12 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import "../../styles/start.css";
 // import Resume from "../../files/SWE_Resume.pdf";
 import ProfilePic from "../../images/iceland_pfp.png"; // Make sure to import your profile picture
+import { useTheme } from "../ThemeContext";
 
 function Introduction() {
+  const { theme } = useTheme();
   return (
-    <div className="title-intro">
+    <div className={`title-intro ${theme}`}>
       <div className="text-section">
         <div className="title">Ryan Huang</div>
         <div className="intro">

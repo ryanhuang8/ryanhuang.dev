@@ -135,8 +135,9 @@ button:focus-visible {
 }
 
 .column {
-  flex: 0.5;
+  width: 100%;
   padding: 20px;
+  max-width: 900px;
   /* border: 1px solid #ccc; */
 }
 

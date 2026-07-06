@@ -66,7 +66,7 @@ function PersonalProjects() {
             "Learn anything on your screen with an ElevenLabs Conversational AI Agent"
           }
           project_image={askEcho}
-          tech={["TypeScript", "FastAPI", "n8n", "Supabase"]}
+          tech={["TypeScript", "FastAPI", "n8n"]}
           links={{}}
           onClick={handleProjectBoxClick}
           changeProject={changeProject}
