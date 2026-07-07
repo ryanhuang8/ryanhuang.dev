@@ -4,9 +4,14 @@ import "../../../styles/blog.css";
 import "../../../styles/start.css";
 import TechBox from "../../startPage/TechBox";
 import OscarImage from "../../../images/oscar.png";
+import { usePageMeta } from "../../../utils/usePageMeta";
 
 function Oscar() {
   const { theme } = useTheme();
+  usePageMeta(
+    "Brown Oscar Documentation",
+    "Scripts and commands for using Brown University's OSCAR high performance computing cluster."
+  );
   return (
     <div className={`container ${theme}`}>
       <div className="container-toc">
@@ -39,7 +44,7 @@ function Oscar() {
         <div className="technologies">
           <TechBox technology="#Computing" />
         </div>
-        <img className="oscar-image" src={OscarImage} />
+        <img className="oscar-image" src={OscarImage} alt="Oscar cluster logo" />
         <div id="section1" className="section">
           <h2 className="section-title">Introduction</h2>
           <b>Oscar</b>, or Ocean State Center for Advanced Resources, is Brown

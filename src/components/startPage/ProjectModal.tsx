@@ -37,7 +37,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, closeModal }) => {
         </span>
         <div className="image-slot">
           <div className="project-img-modal">
-            <img src={project.image} className="image-modal" />
+            <img src={project.image} alt={project.name} className="image-modal" />
           </div>
         </div>
         <h2 className="modal-title">{project.name}</h2>

@@ -6,9 +6,14 @@ import PLMESRA from "../files/SRA Poster Ryan Huang.pdf";
 import BURISE from "../files/BU_RISE_Poster2021.pptx.pdf";
 // import Resume2024 from "../files/Ryan Huang Resume 2024.pdf";
 // import { IoDocumentText } from "react-icons/io5";
+import { usePageMeta } from "../utils/usePageMeta";
 
 function Research() {
   const { theme } = useTheme();
+  usePageMeta(
+    "Research",
+    "Published research and posters by Ryan Huang in computer vision, graphics, and NLP at Brown University."
+  );
   return (
     <div className={`container ${theme}`}>
       <div className="column">

@@ -29,7 +29,7 @@ const ProjectBox: React.FC<ProjectProps> = ({ project_name, extra_description, p
     return (
       <div className={`project-box ${theme}`} onClick={clickEvent}>
         <div className="project-img">
-          <img src={project_image} className="image" />
+          <img src={project_image} alt={project_name} className="image" />
         </div>
         <div className="project-title">
           {project_name}
