@@ -2,11 +2,11 @@ import { useState } from "react";
 import ProjectModal from "./ProjectModal";
 import ProjectBox from "./ProjectBox";
 import medChat from "../../images/MedChat.png";
-import askEcho from "../../images/AskEcho2.png";
+import askEcho from "../../images/AskEcho2.webp";
 // import webSnap from '../../images/webSnap.png';
 import memoTech from "../../images/memotech.jpeg";
-import pathPerfect from "../../images/pathperfect.png";
-import sacredSteve from "../../images/SacredSteve.png";
+import pathPerfect from "../../images/pathperfect.webp";
+import sacredSteve from "../../images/SacredSteve.webp";
 import gan from "../../images/3dgan.png";
 // import Ditto from '../Ditto';
 
