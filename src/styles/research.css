@@ -36,12 +36,34 @@
   margin-bottom: 10px;
 }
 
+.research-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+.research-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.research-legend-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
 .research-box {
   width: 100%; /* Set your desired width */
   position: relative;
   display: flex;
   flex-direction: column;
-  margin-bottom: 15px;
+  margin-bottom: 26px;
 }
 
 .highlight {
@@ -67,6 +89,8 @@
   padding: 2px;
   display: flex;
   flex-wrap: wrap;
+  opacity: 0.75;
+  font-size: 14.5px;
 }
 
 .research-journal {
@@ -75,6 +99,9 @@
   display: flex;
   flex-wrap: wrap;
   font-style: italic;
+  opacity: 0.6;
+  font-size: 14px;
+  margin-top: 2px;
 }
 
 .research-links {

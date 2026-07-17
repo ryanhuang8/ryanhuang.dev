@@ -19,6 +19,20 @@ function Research() {
       <div className="column">
         <ResearchIntro />
         <div className="research-subtitle">Publications</div>
+        <div className="research-legend">
+          <div className="research-legend-item">
+            <span className="research-legend-dot" style={{ backgroundColor: "#3498db" }}></span>
+            Computer Vision &amp; Graphics
+          </div>
+          <div className="research-legend-item">
+            <span className="research-legend-dot" style={{ backgroundColor: "#72bf6a" }}></span>
+            Natural Language Processing
+          </div>
+          <div className="research-legend-item">
+            <span className="research-legend-dot" style={{ backgroundColor: "#e8bb4c" }}></span>
+            Experimental
+          </div>
+        </div>
         <div className="research-subtitle2">Computer Vision and Graphics</div>
         <ResearchBox
           title="ParSEL: Parameterized Shape Editing with Language"
