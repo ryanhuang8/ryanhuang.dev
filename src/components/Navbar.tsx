@@ -1,26 +1,32 @@
+import { useState } from "react";
+import { Link } from "react-router-dom";
 import "../styles/navbar.css";
 import ThemeToggle from "./ThemeToggle";
 import { useTheme } from "./ThemeContext";
 
 const Navbar = () => {
   const { theme } = useTheme();
+  const [menuOpen, setMenuOpen] = useState(false);
+
   const handleThemeToggle = () => {
     // You can implement logic to update your application's theme
     console.log("Theme toggled to:", theme);
   };
 
+  const closeMenu = () => setMenuOpen(false);
+
   return (
     <nav className={`horizontal-navbar ${theme}`}>
       <div className="center-nav">
         <div className="nav-tabs">
-          <ul>
+          <ul className={menuOpen ? "open" : ""}>
             <li>
-              <a href="/">Home</a>
+              <Link to="/" onClick={closeMenu}>Home</Link>
             </li>
             <li>
-              <a href="/research" className="new-page">
+              <Link to="/research" className="new-page" onClick={closeMenu}>
                 Research
-              </a>
+              </Link>
             </li>
             {/* <li><a href="/blogs" className="new-page">Blog</a></li> */}
             {/* <li><a href="/experience">Experience</a></li> */}
@@ -28,6 +34,16 @@ const Navbar = () => {
         </div>
         <div className="nav-buttons">
           <ThemeToggle onToggle={handleThemeToggle} />
+          <button
+            className={`nav-hamburger ${theme} ${menuOpen ? "open" : ""}`}
+            aria-label={menuOpen ? "Close menu" : "Open menu"}
+            aria-expanded={menuOpen}
+            onClick={() => setMenuOpen((open) => !open)}
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
         </div>
       </div>
     </nav>
