@@ -6,7 +6,7 @@
     justify-content: center;
     width: 100%;
     align-items: center;
-    padding: 5px 0;
+    padding: 7px 0;
     font-size: 17px;
     z-index: 100;
 
@@ -84,6 +84,8 @@
   border-radius: 6px;
   background: transparent;
   cursor: pointer;
+  flex-shrink: 0;
+  box-sizing: border-box;
 }
 
 .nav-hamburger span {
