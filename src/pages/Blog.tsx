@@ -1,7 +1,5 @@
 import { useTheme } from "../components/ThemeContext";
 import BlogsIntro from "../components/blogsPage/BlogsIntro";
-// import Template from "../components/blogsPage/blogs/Template";
-import BlogBox from "../components/blogsPage/blogs/BlogBox";
 import { usePageMeta } from "../utils/usePageMeta";
 
 function Blog() {
@@ -11,15 +9,22 @@ function Blog() {
     <div className={`container ${theme}`}>
       <div className="column">
         <BlogsIntro />
-        <BlogBox
-          title="Brown Oscar Documentation"
-          description="Scripts/Commands for OSCAR"
-          date="June 19, 2024"
-          tags={["#Computing"]}
-          link="oscar"
-        />
-
-        {/* <Template /> */}
+        <div className={`blog-empty ${theme}`}>
+          <div className="blog-empty-title">Nothing published yet</div>
+          <div className="blog-empty-body">
+            I'm working on my first post. In the meantime, you can find my code
+            on{" "}
+            <a
+              href="https://github.com/ryanhuang8"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>{" "}
+            or take a look at my{" "}
+            <a href="/research">research</a>.
+          </div>
+        </div>
       </div>
     </div>
   );

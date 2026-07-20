@@ -4,6 +4,35 @@
   font-family: "proxima_nova_rgbold", Helvetica, Arial, sans-serif;
 }
 
+.blog-empty {
+  margin-top: 32px;
+  padding: 48px 32px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.blog-empty.light {
+  background-color: #e6e4e464;
+}
+
+.blog-empty.dark {
+  background-color: rgba(18, 21, 23, 0.257);
+}
+
+.blog-empty-title {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "proxima_nova_rgbold", Helvetica, Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+.blog-empty-body {
+  font-size: 16px;
+  opacity: 0.75;
+  max-width: 46ch;
+  margin: 0 auto;
+}
+
 .project-title-blog {
   width: 100%;
   padding: 2px;

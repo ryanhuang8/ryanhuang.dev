@@ -28,7 +28,11 @@ const Navbar = () => {
                 Research
               </Link>
             </li>
-            {/* <li><a href="/blogs" className="new-page">Blog</a></li> */}
+            <li>
+              <Link to="/blogs" className="new-page" onClick={closeMenu}>
+                Blog
+              </Link>
+            </li>
             {/* <li><a href="/experience">Experience</a></li> */}
           </ul>
         </div>
