@@ -8,7 +8,7 @@ interface TechProps {
 
 const TechBox: React.FC<TechProps> = ({ technology }) => {
     return (
-        <div className="tech-box" style={{backgroundColor:TechColors[technology]}}>
+        <div className="tech-box" style={{ ["--tech-color" as string]: TechColors[technology] }}>
             {technology}
         </div>
     )

@@ -244,11 +244,23 @@
 
 .tech-box {
   border-radius: 9px;
-  padding: 4px;
+  padding: 4px 9px;
   display: flex;
   justify-content: center;
-  font-size: 14px;
-  color: white;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.light .tech-box {
+  color: color-mix(in srgb, var(--tech-color) 65%, black);
+  background-color: color-mix(in srgb, var(--tech-color) 14%, white);
+  border: 1px solid color-mix(in srgb, var(--tech-color) 30%, white);
+}
+
+.dark .tech-box {
+  color: color-mix(in srgb, var(--tech-color) 55%, white);
+  background-color: color-mix(in srgb, var(--tech-color) 22%, #24272c);
+  border: 1px solid color-mix(in srgb, var(--tech-color) 38%, #24272c);
 }
 
 .project-links {
