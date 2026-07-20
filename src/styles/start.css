@@ -252,15 +252,15 @@
 }
 
 .light .tech-box {
-  color: color-mix(in srgb, var(--tech-color) 65%, black);
-  background-color: color-mix(in srgb, var(--tech-color) 14%, white);
-  border: 1px solid color-mix(in srgb, var(--tech-color) 30%, white);
+  color: #1e1d1b;
+  background-color: color-mix(in srgb, var(--tech-color) 16%, white);
+  border: 1px solid color-mix(in srgb, var(--tech-color) 32%, white);
 }
 
 .dark .tech-box {
-  color: color-mix(in srgb, var(--tech-color) 55%, white);
-  background-color: color-mix(in srgb, var(--tech-color) 22%, #24272c);
-  border: 1px solid color-mix(in srgb, var(--tech-color) 38%, #24272c);
+  color: #eae8e3;
+  background-color: color-mix(in srgb, var(--tech-color) 26%, #24272c);
+  border: 1px solid color-mix(in srgb, var(--tech-color) 42%, #24272c);
 }
 
 .project-links {
