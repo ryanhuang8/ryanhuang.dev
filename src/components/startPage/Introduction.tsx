@@ -1,4 +1,5 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 // import { IoDocumentText } from "react-icons/io5";
 import "../../styles/start.css";
 // import Resume from "../../files/SWE_Resume.pdf";
@@ -39,6 +40,12 @@ function Introduction() {
             <div className="icon-text">
               <FaLinkedin size={22} />
               <div className="text-by-icon">LinkedIn</div>
+            </div>
+          </a>
+          <a href="https://x.com/ryanyhuang" target="_blank">
+            <div className="icon-text">
+              <FaXTwitter size={22} />
+              <div className="text-by-icon">Twitter</div>
             </div>
           </a>
         </div>
