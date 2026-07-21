@@ -16,7 +16,7 @@ const ThemeToggle: React.FC<ThemeToggleProps> = ({ onToggle }) => {
 
   return (
     <button className={`theme-toggle ${theme}`} onClick={handleToggle}>
-      {theme === 'light' ? <FaRegMoon /> : <FaRegSun size={22} />}
+      {theme === 'light' ? <FaRegMoon size={26} /> : <FaRegSun size={32} />}
     </button>
   );
 }

@@ -1,33 +1,37 @@
 .light .theme-toggle {
-    background-color: #444245;
-    color: white;
+    background-color: transparent;
+    color: #333;
 }
-  
+
 .dark .theme-toggle {
-    background-color: #ffb95d;
-    color: black;
+    background-color: transparent;
+    color: #fff;
 }
-  
+
 .theme-toggle {
     border: none;
+    border-radius: 10px;
     padding: 10px 15px;
     cursor: pointer;
     font-size: 16px;
     align-items: center;
     justify-content: center;
     display: flex;
-    height: 40px;
-    width: 46px;
+    height: 42px;
+    width: 42px;
     flex-shrink: 0;
     box-sizing: border-box;
+    transition: background-color 0.15s ease, box-shadow 0.15s ease;
 }
-  
+
 .theme-toggle.light:hover {
-    background-color: #232223;
+    background-color: rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
 }
 
 .theme-toggle.dark:hover {
-    background-color: #e4a551;
+    background-color: rgba(18, 21, 23, 0.6);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
 }
 
 .theme-toggle:focus-visible {
